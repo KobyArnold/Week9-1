@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--This webpage was made by:
+Koby Arnold
+June 5, 2023
+kobarnol@uat.edu-->
+<!--This is the start of the HTML-->
+<html>
+
+<head>
+    <!--We need a style sheet to define the styles for our page-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--We need to link the JS file with the HTML file so we can use the JS resources-->
+    <script src="code.js"></script>
+    <title>
+        <!--This is the title at the top of the title bar-->
+        Koby Arnold Page
+    </title>
+
+</head>
+
+<body>
+    <!--This is the header at the top of the page-->
+    <header style="text-align: center;" <h1>Welcome to the Koby Arnold Webpage</h1>
+        <h3>I am your host, Koby</h3>
+        <br>
+    </header>
+    <!--This is for navigation-->
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+    </nav>
+
+    <!--This is the meme in the body of the page-->
+
+    <div id="bodyText">
+        <p>This is a parahraph about me.
+            I am currently a student at UAT and am
+            Majoring in Network Security and Network Engineering
+        </p>
+        <br>
+        <!--This is where the Craps game will be played-->
+        <h2>Welocome to my Craps game</h2>
+        Die 1 result: <div id="die1Res">Press "play craps" to start gane</div> <br>
+        Die 2 result: <div id="die2Res">Press "play craps" to start gane</div> <br>
+        Sum of the dice: <div id="dieSum">Press "play craps" to start gane</div> <br>
+        Game result: <div id="gameRes">Press "play craps" to start gane</div><br>
+        <br>
+        <!--This is the button for the craps game-->
+        <button onclick="playCraps();">Play Craps!</button><br>
+        <br>
+    </div>
+
+
+    <!--This is the footer at the bottom center of the page-->
+    <footer style="text-align: center;">
+        <h2>Koby Arnold</h2>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        602-383-8228<br>
+    </footer>
+    <marquee id="mymarquee" direction="down">
+        <img id="memePic" src="OIP.jpeg">
+    </marquee>
+    <br>
+
+    <button id="startButton" onclick="startFun();">Start</button>
+    <button id="stopButton" onclick="stopFun();">Stop</button>
+
+</body>
+
+</html>

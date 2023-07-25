@@ -1,0 +1,27 @@
+/*These are the body style elements
+*/
+body {
+    background-color: rgb(95, 160, 100);
+}
+
+/* Modify the picture but does not work
+*/
+#pic {
+    text-align: center;
+}
+
+/*Modify header text file
+*/
+h1 {
+    text-align: center;
+}
+
+/*Modify button design elements
+*/
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: skyblue;
+}
